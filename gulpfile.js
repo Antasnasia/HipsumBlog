@@ -76,10 +76,11 @@ gulp.task('server', function() {
 });
 //Таск для очищения папки dist перед запуском сборки
 gulp.task('clean:dist', function(callback) {
-    return gulp.src("./dist/")
-        .pipe(clean('./dist'))
-        
-    callback();
+    return gulp.src("./dist/", {
+        read: false,
+        allowEmpty: true})
+        .pipe(clean())
+        callback();
 });
 
 // Таск для копирования изображений 
