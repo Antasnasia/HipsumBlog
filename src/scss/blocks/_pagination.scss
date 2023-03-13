@@ -1,0 +1,44 @@
+.pagination {
+    display:flex;
+    justify-content: space-between
+    padding: 40px 0;
+
+   
+}
+
+
+.pagination_text-link, a.pagination_text-link {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.28px;
+    text-decoration: none;
+
+    &:hover {
+        color: #e84c50;
+    }
+}
+.pagination_current {
+   display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.36px;
+
+     &>*:not(:last-child) {
+      margin-right: 20px;  
+     }
+}
+
+.pagination_current_active {
+     color: #e84c50; 
+}
+a.pagination_current-link {
+    color:#000000;
+    text-decoration: none;
+
+    &:hover {
+        color: #e84c50;
+    }
+}
