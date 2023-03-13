@@ -1,4 +1,6 @@
-
+//Libs
+@import "./libs/bootstrap-grid.scss";
+@import "./libs/bootstrap-reboot.scss";
 
 
 //Blocks
@@ -6,11 +8,11 @@
 @import "./blocks/header.scss";
 @import "./blocks/social_icons.scss";
 @import "./blocks/buttons.scss";
+@import "./blocks/post.scss";
+@import "./blocks/share-icons.scss";
 
 
-//Libs
-@import "./libs/bootstrap-grid.scss";
-@import "./libs/bootstrap-reboot.scss";
+
 
 /*
 font-family: 'Exo 2', sans-serif;

@@ -54,7 +54,7 @@ gulp.task('scss', function(callback) {
         indentWidth: 1,
         outputStyle: "expanded"
     }))
-    .pipe(gcmq())
+    // .pipe(gcmq())
     .pipe(autoprefixer({
         overrideBrowserslist: ['last 4 versions']
     }))

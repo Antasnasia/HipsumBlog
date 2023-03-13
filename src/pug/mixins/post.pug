@@ -1,0 +1,21 @@
+mixin post(title, info, img, link)
+    article.post
+        h2.post_title #{title} 
+        .post_info #{info}
+        .post_img
+            img(src="./img/posts-preview/" + img, alt="#{title}" width="870")
+        .post_content
+            block
+        .post_footer    
+            .post_read-more 
+                +button-read-more("Read more", link) 
+            .post_share-icons 
+                .share-icons 
+                    a.share-icons_item(href="#")
+                        img(src="./img/icons/social/whatsapp.svg", alt="whatsapp", width="21") 
+                    a.share-icons_item(href="#")
+                        img(src="./img/icons/social/instagram.svg", alt="instagram", width="19") 
+                    a.share-icons_item(href="#")
+                        img(src="./img/icons/social/twitter.svg", alt="twitter", width="21") 
+                    a.share-icons_item(href="#")
+                        img(src="./img/icons/social/facebook-f.svg", alt="facebook", width="12")
