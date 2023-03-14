@@ -1,0 +1,40 @@
+.post-widget {
+    padding: 40px 0;
+    border-bottom: 1ps solid #dde2e7;
+}
+.post-widget-img {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.post-widget-img img {
+    width: 80px;
+    height: 80px;
+    border-radius:40px;
+    object-fit: cover;
+}
+.post-widget-title {
+    margin: 0;
+     margin-bottom: 25px;
+     color: #1a1a1a;
+     font-family: 'Playfair Display', serif;
+     font-size: 18px;
+     font-weight: 400;
+     text-align: center;
+
+     a {
+        color: #1a1a1a;
+        text-decoration: none;
+        &:hover {
+            color: #1a1a1a;
+            text-decoration: underline;
+        }
+     }
+
+}
+.post-widget-info {
+    color: #b0b0b0;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+}
