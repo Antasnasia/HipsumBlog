@@ -1,6 +1,10 @@
 .post-widget {
     padding: 40px 0;
-    border-bottom: 1ps solid #dde2e7;
+
+    &:not(:last-child) {
+         border-bottom: 1ps solid #dde2e7;
+    }
+   
 }
 .post-widget-img {
     text-align: center;
